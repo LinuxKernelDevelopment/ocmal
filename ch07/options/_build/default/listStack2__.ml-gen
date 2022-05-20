@@ -1,0 +1,2 @@
+(** @canonical ListStack2.ListStack *)
+module ListStack = ListStack2__ListStack

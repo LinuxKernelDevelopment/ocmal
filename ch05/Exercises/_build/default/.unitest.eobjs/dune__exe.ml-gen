@@ -1,0 +1,10 @@
+(** @canonical Dune__exe.Concatenate *)
+module Concatenate = Dune__exe__Concatenate
+
+
+(** @canonical Dune__exe.MulList *)
+module MulList = Dune__exe__MulList
+
+
+(** @canonical Dune__exe.Unitest *)
+module Unitest = Dune__exe__Unitest

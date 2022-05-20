@@ -1,0 +1,15 @@
+let rec merge_i a b = match (a, b) with
+  | (x::xs), (y::ys) -> if x < y then
+                          x::merge_i b xs
+                        else
+                          y::merge_i a ys
+  | xs,[] -> xs
+  | [],ys -> ys;;
+
+let rec merge a b compare = match (a, b) with
+  | (x::txs), (y::tys) -> if compare x y > 0 then
+                          x :: (merge txs b compare)
+                        else
+                          y :: (merge a tys compare)
+  | xs,[] -> xs
+  | [],ys -> ys

@@ -1,0 +1,6 @@
+(** @canonical Dune__exe.Nextweekday *)
+module Nextweekday = Dune__exe__Nextweekday
+
+
+(** @canonical Dune__exe.Test *)
+module Test = Dune__exe__Test

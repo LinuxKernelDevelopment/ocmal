@@ -1,0 +1,6 @@
+2022-03-10T15:27:18+00:00 archlinux#01 I: Start test test suite for next_weekday:0:tue_after_mon.
+2022-03-10T15:27:18+00:00 archlinux#01 I: Test test suite for next_weekday:0:tue_after_mon is successful.
+2022-03-10T15:27:18+00:00 archlinux#01 I: End test test suite for next_weekday:0:tue_after_mon.
+2022-03-10T15:27:18+00:00 archlinux#01 I: Start test test suite for next_weekday:6:mon_after_sun.
+2022-03-10T15:27:18+00:00 archlinux#01 I: Test test suite for next_weekday:6:mon_after_sun is successful.
+2022-03-10T15:27:18+00:00 archlinux#01 I: End test test suite for next_weekday:6:mon_after_sun.

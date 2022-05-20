@@ -1,0 +1,3 @@
+(executable
+ (name unitest)
+ (libraries ounit2))

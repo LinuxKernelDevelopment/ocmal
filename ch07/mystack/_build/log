@@ -1,0 +1,121 @@
+# dune utop
+# OCAMLPARAM: unset
+# Workspace root: /home/hmsjwzb/ocaml/ch07/mystack
+$ /usr/bin/nproc > /tmp/dune36faa0.output 2> /dev/null
+# Auto-detected concurrency: 12
+# disable binary cache
+$ /home/hmsjwzb/.opam/cs3110-2021fa/bin/ocamlc.opt -config > /tmp/dune4d4123.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dyn
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path =
+#      Some External "/home/hmsjwzb/.opam/cs3110-2021fa/lib/toplevel"
+#  ; ocaml_bin = External "/home/hmsjwzb/.opam/cs3110-2021fa/bin"
+#  ; ocaml = Ok External "/home/hmsjwzb/.opam/cs3110-2021fa/bin/ocaml"
+#  ; ocamlc = External "/home/hmsjwzb/.opam/cs3110-2021fa/bin/ocamlc.opt"
+#  ; ocamlopt =
+#      Ok External "/home/hmsjwzb/.opam/cs3110-2021fa/bin/ocamlopt.opt"
+#  ; ocamldep =
+#      Ok External "/home/hmsjwzb/.opam/cs3110-2021fa/bin/ocamldep.opt"
+#  ; ocamlmklib =
+#      Ok External "/home/hmsjwzb/.opam/cs3110-2021fa/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" : "/home/hmsjwzb/.opam/cs3110-2021fa/lib"
+#        ; "DUNE_OCAML_STDLIB" : "/home/hmsjwzb/.opam/cs3110-2021fa/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" : "/home/hmsjwzb/ocaml/ch07/mystack"
+#        ; "INSIDE_DUNE" : "/home/hmsjwzb/ocaml/ch07/mystack/_build/default"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/home/hmsjwzb/ocaml/ch07/mystack/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/home/hmsjwzb/ocaml/ch07/mystack/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/home/hmsjwzb/ocaml/ch07/mystack/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path = [ External "/home/hmsjwzb/.opam/cs3110-2021fa/lib" ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.12.0"
+#      ; standard_library_default =
+#          "/home/hmsjwzb/.opam/cs3110-2021fa/lib/ocaml"
+#      ; standard_library = "/home/hmsjwzb/.opam/cs3110-2021fa/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "gcc"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-fPIC" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; ocamlopt_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-fPIC" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; bytecomp_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-fPIC"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-ldl"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-fPIC"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm"; "-ldl" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "linux"
+#      ; asm = [ "as" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-pc-linux-gnu"
+#      ; target = "x86_64-pc-linux-gnu"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X029"
+#      ; cmi_magic_number = "Caml1999I029"
+#      ; cmo_magic_number = "Caml1999O029"
+#      ; cma_magic_number = "Caml1999A029"
+#      ; cmx_magic_number = "Caml1999Y029"
+#      ; cmxa_magic_number = "Caml1999Z029"
+#      ; ast_impl_magic_number = "Caml1999M029"
+#      ; ast_intf_magic_number = "Caml1999N029"
+#      ; cmxs_magic_number = "Caml1999D029"
+#      ; cmt_magic_number = "Caml1999T029"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default && /home/hmsjwzb/.opam/cs3110-2021fa/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I .mystack.objs/byte -no-alias-deps -opaque -o .mystack.objs/byte/mystack.cmi -c -intf mystack.mli)
+$ (cd _build/default && /home/hmsjwzb/.opam/cs3110-2021fa/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I .mystack.objs/byte -intf-suffix .ml -no-alias-deps -opaque -o .mystack.objs/byte/mystack.cmo -c -impl mystack.ml)
+$ (cd _build/default && /home/hmsjwzb/.opam/cs3110-2021fa/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -a -o mystack.cma .mystack.objs/byte/mystack.cmo)
+$ (cd _build/default && /home/hmsjwzb/.opam/cs3110-2021fa/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -24 -g -bin-annot -I .utop/.utop.eobjs/byte -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/bytes -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/camomile -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/camomile/default_config -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/camomile/dyn -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/camomile/lib_default -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/camomile/library -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/charInfo_width -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/findlib -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/lambda-term -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/lwt -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/lwt/unix -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/lwt_log -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/lwt_log/core -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/lwt_react -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/mew -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/mew_vi -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/mmap -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/ocaml/compiler-libs -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/ocaml/threads -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/ocplib-endian -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/ocplib-endian/bigstring -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/react -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/result -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/seq -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/trie -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/utop -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/zed -I .mystack.objs/byte -no-alias-deps -o .utop/.utop.eobjs/byte/dune__exe__Utop.cmo -c -impl .utop/utop.ml-gen)
+$ (cd _build/default && /home/hmsjwzb/.opam/cs3110-2021fa/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -24 -g -o .utop/utop.exe -output-complete-exe /home/hmsjwzb/.opam/cs3110-2021fa/lib/ocaml/compiler-libs/ocamlcommon.cma /home/hmsjwzb/.opam/cs3110-2021fa/lib/ocaml/compiler-libs/ocamlbytecomp.cma /home/hmsjwzb/.opam/cs3110-2021fa/lib/ocaml/compiler-libs/ocamltoplevel.cma /home/hmsjwzb/.opam/cs3110-2021fa/lib/findlib/findlib.cma /home/hmsjwzb/.opam/cs3110-2021fa/lib/findlib/findlib_top.cma /home/hmsjwzb/.opam/cs3110-2021fa/lib/result/result.cma /home/hmsjwzb/.opam/cs3110-2021fa/lib/lwt/lwt.cma /home/hmsjwzb/.opam/cs3110-2021fa/lib/ocaml/unix.cma -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/ocaml /home/hmsjwzb/.opam/cs3110-2021fa/lib/ocaml/bigarray.cma -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/ocaml /home/hmsjwzb/.opam/cs3110-2021fa/lib/mmap/mmap.cma /home/hmsjwzb/.opam/cs3110-2021fa/lib/ocplib-endian/ocplib_endian.cma /home/hmsjwzb/.opam/cs3110-2021fa/lib/ocplib-endian/bigstring/ocplib_endian_bigstring.cma /home/hmsjwzb/.opam/cs3110-2021fa/lib/ocaml/threads/threads.cma -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/ocaml /home/hmsjwzb/.opam/cs3110-2021fa/lib/lwt/unix/lwt_unix.cma -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/lwt/unix /home/hmsjwzb/.opam/cs3110-2021fa/lib/react/react.cma /home/hmsjwzb/.opam/cs3110-2021fa/lib/lwt_react/lwt_react.cma /home/hmsjwzb/.opam/cs3110-2021fa/lib/camomile/default_config/camomileDefaultConfig.cma /home/hmsjwzb/.opam/cs3110-2021fa/lib/camomile/library/camomileLibrary.cma /home/hmsjwzb/.opam/cs3110-2021fa/lib/camomile/lib_default/camomileLibraryDefault.cma /home/hmsjwzb/.opam/cs3110-2021fa/lib/camomile/dyn/camomileLibraryDyn.cma /home/hmsjwzb/.opam/cs3110-2021fa/lib/camomile/camomile_yuge.cma /home/hmsjwzb/.opam/cs3110-2021fa/lib/charInfo_width/charInfo_width.cma /home/hmsjwzb/.opam/cs3110-2021fa/lib/zed/zed.cma /home/hmsjwzb/.opam/cs3110-2021fa/lib/lwt_log/core/lwt_log_core.cma /home/hmsjwzb/.opam/cs3110-2021fa/lib/lwt_log/lwt_log.cma /home/hmsjwzb/.opam/cs3110-2021fa/lib/trie/trie.cma /home/hmsjwzb/.opam/cs3110-2021fa/lib/mew/mew.cma /home/hmsjwzb/.opam/cs3110-2021fa/lib/mew_vi/mew_vi.cma /home/hmsjwzb/.opam/cs3110-2021fa/lib/lambda-term/lambda_term.cma -I /home/hmsjwzb/.opam/cs3110-2021fa/lib/lambda-term /home/hmsjwzb/.opam/cs3110-2021fa/lib/utop/uTop.cma mystack.cma .utop/.utop.eobjs/byte/dune__exe__Utop.cmo -linkall -warn-error -31)

@@ -1,0 +1,105 @@
+let eq_rat cr = match cr with
+
+type ('a, 'b) list2 =
+     Nil
+   | Acons of 'a * ('a, 'b) list2
+   | Bcons of 'b * ('a, 'b) list2;;
+
+    ((_,0), (_,0)) -> true
+  | ((_,0),_) -> false
+  | (_,(_,0)) -> false
+  | ((n1, 1), (n2, 1)) when n1 = n2 -> true
+  | ((n1, d1), (n2,d2)) when ((n1 * d2) = (n2 * d1)) -> true
+  | _ -> false;;
+
+let char_discriminate c = match c with
+    'a' | 'e' | 'i' | 'o' | 'u' | 'y'
+  | 'A' | 'E' | 'I' | 'O' | 'U' | 'Y'  -> "Vowel"
+  | 'a'..'z' | 'A'..'Z' -> "Consonant"
+  | '0'..'9' -> "Digit"
+  |  _ -> "Other";;
+
+let rec size x = match x with
+    [] -> 0
+  | _::tail_x -> 1 + (size tail_x);;
+
+let rec fold_left f a = function
+   [] -> a
+ | head::tail -> fold_left f (f a head) tail;;
+
+type 'param paired_with_integer = int * 'param;;
+
+type specific_pair = float paired_with_integer;;
+
+type complex = { re:float; im:float};;
+
+let c = {re=2.; im=3.};;
+
+c = {im=3.;re=2.};;
+
+let add_complex c1 c2 = {re = c1.re +. c2.re; im = c1.im +. c2.im};;
+
+let mult_complex c1 c2 = match (c1, c2) with
+  ({re=x1;im=y1},{re=x2;im=y2}) -> {re = x1*.x2-.y1*.y2; im=x1*.y2+.x2*.y1};;
+
+let f tr = match tr with x,_,_ -> x;;
+
+type triplet = {x1:int; x2:int; x3:int};;
+
+let h tr = match tr with {x1=x} -> x;;
+
+type suit = Spades | Hearts | Diamonds | Clubs;;
+
+type card =
+     King of suit
+   | Queen of suit
+   | Knight of suit
+   | Knave of suit
+   | Minor_card of suit * int
+   | Trump of int
+   | Joker;;
+
+let rec interval a b = if a = b then [b] else a::(interval (a+1) b);;
+
+let all_cards s =
+    let face_cards = [ Knave s; Knight s; Queen s; King s]
+    and other_cards = List.map (function n -> Minor_card(s, n)) (interval 1 10)
+    in face_cards @ other_cards;;
+
+let string_of_suit = function
+        Spades   -> "spades"
+    |   Diamonds -> "diamonds"
+    |   Hearts   -> "hearts"
+    |   Clubs    -> "clubs";;
+
+let string_of_card = function
+          King c            -> "king of " ^ (string_of_suit c)
+      |   Queen c           -> "queen of " ^ (string_of_suit c)
+      |   Knave c           -> "knave of " ^ (string_of_suit c)
+      |   Knight c          -> "knight of " ^ (string_of_suit c)        
+      |   Minor_card(c, n)  -> (string_of_int n) ^ " of " ^ (string_of_suit c)
+      |   Trump n           -> (string_of_int n) ^ " of trumps"
+      |   Joker             -> "joker";;
+
+type int_or_char_list =
+     Nil
+   | Int_cons of int * int_or_char_list
+   | Char_cons of char * int_or_char_list;;
+
+type ('a, 'b) list2 =
+     Nil
+   | Acons of 'a * ('a, 'b) list2
+   | Bcons of 'b * ('a, 'b) list2;;
+
+let rec extract_odd = function
+    Nil -> []
+  | Acons(_, x) -> extract_odd x
+  | Bcons(n, x) -> n::(extract_odd x);;
+
+type 'a bin_tree =
+   Empty
+ | Node of 'a bin_tree * 'a * 'a bin_tree;;
+
+let rec list_of_tree = function
+    Empty -> []
+  | Node(lb, r, rb) -> (list_of_tree lb) @ (r :: (list_of_tree rb));;

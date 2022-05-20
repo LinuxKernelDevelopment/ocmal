@@ -1,0 +1,3 @@
+2022-04-22T14:31:18+00:00 archlinux#01 I: Start test test suite for stack:0:peek (push x empty) = x.
+2022-04-22T14:31:18+00:00 archlinux#01 I: Test test suite for stack:0:peek (push x empty) = x is successful.
+2022-04-22T14:31:18+00:00 archlinux#01 I: End test test suite for stack:0:peek (push x empty) = x.

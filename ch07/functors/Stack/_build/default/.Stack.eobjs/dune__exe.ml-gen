@@ -1,0 +1,6 @@
+(** @canonical Dune__exe.Stack *)
+module Stack = Dune__exe__Stack
+
+
+(** @canonical Dune__exe.Stack2 *)
+module Stack2 = Dune__exe__Stack2

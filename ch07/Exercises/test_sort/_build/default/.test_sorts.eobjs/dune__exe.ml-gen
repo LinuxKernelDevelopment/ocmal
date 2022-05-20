@@ -1,0 +1,6 @@
+(** @canonical Dune__exe.Sorts *)
+module Sorts = Dune__exe__Sorts
+
+
+(** @canonical Dune__exe.Test_sorts *)
+module Test_sorts = Dune__exe__Test_sorts

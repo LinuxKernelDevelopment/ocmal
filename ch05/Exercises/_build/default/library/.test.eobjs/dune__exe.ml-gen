@@ -1,0 +1,6 @@
+(** @canonical Dune__exe.Fifth *)
+module Fifth = Dune__exe__Fifth
+
+
+(** @canonical Dune__exe.Test *)
+module Test = Dune__exe__Test

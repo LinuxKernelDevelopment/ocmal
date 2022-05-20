@@ -1,0 +1,6 @@
+(** @canonical Dune__exe.Max *)
+module Max = Dune__exe__Max
+
+
+(** @canonical Dune__exe.Test *)
+module Test = Dune__exe__Test

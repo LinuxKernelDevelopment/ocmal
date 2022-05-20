@@ -1,0 +1,6 @@
+(** @canonical Dune__exe.Test *)
+module Test = Dune__exe__Test
+
+
+(** @canonical Dune__exe.Vectoradd *)
+module Vectoradd = Dune__exe__Vectoradd

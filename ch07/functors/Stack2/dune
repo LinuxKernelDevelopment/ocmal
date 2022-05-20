@@ -1,0 +1,3 @@
+(executable
+ (name Stack2)
+ (libraries ounit2))
