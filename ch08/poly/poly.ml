@@ -29,8 +29,8 @@ end
 
 let rec power v n = if n = 0 then 1 else v * power v (n - 1)
 
-module ListPoly : Poly = struct
-  type t = int list
+module ListPoly : Poly with type t = int list = struct
+  type t
 
   let empty = []
 

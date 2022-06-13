@@ -1,0 +1,14 @@
+(** @canonical Dune__exe.Promise *)
+module Promise = Dune__exe__Promise
+
+
+(** @canonical Dune__exe.Read2 *)
+module Read2 = Dune__exe__Read2
+
+
+(** @canonical Dune__exe.Read3 *)
+module Read3 = Dune__exe__Read3
+
+
+(** @canonical Dune__exe.Read4 *)
+module Read4 = Dune__exe__Read4

@@ -1,0 +1,104 @@
+2022-05-22T20:51:51+00:00 archlinux#00 I: Runner: processes
+2022-05-22T20:51:51+00:00 archlinux#00 I: Chooser: simple
+2022-05-22T20:51:51+00:00 archlinux#00 I: Configuration suite_name = "test suite for ListSet"
+2022-05-22T20:51:51+00:00 archlinux#00 I: Configuration cache_filename = "/home/hmsjwzb/ocaml/ch08/setgb/_build/oUnit-$(suite_name).cache"
+2022-05-22T20:51:51+00:00 archlinux#00 I: Configuration run_gc_full_major = "true"
+2022-05-22T20:51:51+00:00 archlinux#00 I: Configuration display = "true"
+2022-05-22T20:51:51+00:00 archlinux#00 I: Configuration results_style_1_X = "false"
+2022-05-22T20:51:51+00:00 archlinux#00 I: Configuration testdata_dir = "none"
+2022-05-22T20:51:51+00:00 archlinux#00 I: Configuration health_check_interval = "1."
+2022-05-22T20:51:51+00:00 archlinux#00 I: Configuration verbose = "false"
+2022-05-22T20:51:51+00:00 archlinux#00 I: Configuration chooser = "simple"
+2022-05-22T20:51:51+00:00 archlinux#00 I: Configuration output_html_dir = "none"
+2022-05-22T20:51:51+00:00 archlinux#00 I: Configuration processes_kill_period = "5."
+2022-05-22T20:51:51+00:00 archlinux#00 I: Configuration runner = "processes"
+2022-05-22T20:51:51+00:00 archlinux#00 I: Configuration shards = "6"
+2022-05-22T20:51:51+00:00 archlinux#00 I: Configuration processes_grace_period = "5."
+2022-05-22T20:51:51+00:00 archlinux#00 I: Configuration log_encoding = "utf-8"
+2022-05-22T20:51:51+00:00 archlinux#00 I: Configuration output_junit_file = "none"
+2022-05-22T20:51:51+00:00 archlinux#00 I: Configuration ci = "false"
+2022-05-22T20:51:51+00:00 archlinux#00 I: Configuration output_file = "/home/hmsjwzb/ocaml/ch08/setgb/_build/oUnit-$(suite_name)-$(shard_id).log"
+2022-05-22T20:51:51+00:00 archlinux#00 I: Using 6 workers maximum.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Starting worker number archlinux#01.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Worker archlinux#01 started.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Starting worker number archlinux#02.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Worker archlinux#02 started.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Starting worker number archlinux#03.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Worker archlinux#03 started.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Starting worker number archlinux#04.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Worker archlinux#04 started.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Starting worker number archlinux#05.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Worker archlinux#05 started.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Still 5 tests running : test suite for ListSet:4:UniqueElements, test suite for ListSet:3:UniqueElements, test suite for ListSet:2:UniqueMem, test suite for ListSet:1:elements, test suite for ListSet:0:mem.
+2022-05-22T20:51:51+00:00 archlinux#00 I: 5 tests running: test suite for ListSet:4:UniqueElements, test suite for ListSet:3:UniqueElements, test suite for ListSet:2:UniqueMem, test suite for ListSet:1:elements, test suite for ListSet:0:mem.
+2022-05-22T20:51:51+00:00 archlinux#01 I: Start test test suite for ListSet:0:mem.
+2022-05-22T20:51:51+00:00 archlinux#02 I: Start test test suite for ListSet:1:elements.
+2022-05-22T20:51:51+00:00 archlinux#03 I: Start test test suite for ListSet:2:UniqueMem.
+2022-05-22T20:51:51+00:00 archlinux#04 I: Start test test suite for ListSet:3:UniqueElements.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Still 5 tests running : test suite for ListSet:4:UniqueElements, test suite for ListSet:3:UniqueElements, test suite for ListSet:2:UniqueMem, test suite for ListSet:1:elements, test suite for ListSet:0:mem.
+2022-05-22T20:51:51+00:00 archlinux#00 I: 5 tests running: test suite for ListSet:4:UniqueElements, test suite for ListSet:3:UniqueElements, test suite for ListSet:2:UniqueMem, test suite for ListSet:1:elements, test suite for ListSet:0:mem.
+2022-05-22T20:51:51+00:00 archlinux#01 I: Test test suite for ListSet:0:mem is successful.
+2022-05-22T20:51:51+00:00 archlinux#05 I: Start test test suite for ListSet:4:UniqueElements.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Still 5 tests running : test suite for ListSet:4:UniqueElements, test suite for ListSet:3:UniqueElements, test suite for ListSet:2:UniqueMem, test suite for ListSet:1:elements, test suite for ListSet:0:mem.
+2022-05-22T20:51:51+00:00 archlinux#00 I: 5 tests running: test suite for ListSet:4:UniqueElements, test suite for ListSet:3:UniqueElements, test suite for ListSet:2:UniqueMem, test suite for ListSet:1:elements, test suite for ListSet:0:mem.
+2022-05-22T20:51:51+00:00 archlinux#01 I: End test test suite for ListSet:0:mem.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Still 5 tests running : test suite for ListSet:4:UniqueElements, test suite for ListSet:3:UniqueElements, test suite for ListSet:2:UniqueMem, test suite for ListSet:1:elements, test suite for ListSet:0:mem.
+2022-05-22T20:51:51+00:00 archlinux#00 I: 5 tests running: test suite for ListSet:4:UniqueElements, test suite for ListSet:3:UniqueElements, test suite for ListSet:2:UniqueMem, test suite for ListSet:1:elements, test suite for ListSet:0:mem.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Still 4 tests running : test suite for ListSet:4:UniqueElements, test suite for ListSet:3:UniqueElements, test suite for ListSet:2:UniqueMem, test suite for ListSet:1:elements.
+2022-05-22T20:51:51+00:00 archlinux#00 I: 4 tests running: test suite for ListSet:4:UniqueElements, test suite for ListSet:3:UniqueElements, test suite for ListSet:2:UniqueMem, test suite for ListSet:1:elements.
+2022-05-22T20:51:51+00:00 archlinux#02 I: Test test suite for ListSet:1:elements is successful.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Still 4 tests running : test suite for ListSet:4:UniqueElements, test suite for ListSet:3:UniqueElements, test suite for ListSet:2:UniqueMem, test suite for ListSet:1:elements.
+2022-05-22T20:51:51+00:00 archlinux#00 I: 4 tests running: test suite for ListSet:4:UniqueElements, test suite for ListSet:3:UniqueElements, test suite for ListSet:2:UniqueMem, test suite for ListSet:1:elements.
+2022-05-22T20:51:51+00:00 archlinux#02 I: End test test suite for ListSet:1:elements.
+2022-05-22T20:51:51+00:00 archlinux#03 I: Test test suite for ListSet:2:UniqueMem is successful.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Still 4 tests running : test suite for ListSet:4:UniqueElements, test suite for ListSet:3:UniqueElements, test suite for ListSet:2:UniqueMem, test suite for ListSet:1:elements.
+2022-05-22T20:51:51+00:00 archlinux#00 I: 4 tests running: test suite for ListSet:4:UniqueElements, test suite for ListSet:3:UniqueElements, test suite for ListSet:2:UniqueMem, test suite for ListSet:1:elements.
+2022-05-22T20:51:51+00:00 archlinux#03 I: End test test suite for ListSet:2:UniqueMem.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Still 3 tests running : test suite for ListSet:4:UniqueElements, test suite for ListSet:3:UniqueElements, test suite for ListSet:2:UniqueMem.
+2022-05-22T20:51:51+00:00 archlinux#00 I: 3 tests running: test suite for ListSet:4:UniqueElements, test suite for ListSet:3:UniqueElements, test suite for ListSet:2:UniqueMem.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Still 2 tests running : test suite for ListSet:4:UniqueElements, test suite for ListSet:3:UniqueElements.
+2022-05-22T20:51:51+00:00 archlinux#00 I: 2 tests running: test suite for ListSet:4:UniqueElements, test suite for ListSet:3:UniqueElements.
+2022-05-22T20:51:51+00:00 archlinux#05 I: Test test suite for ListSet:4:UniqueElements is successful.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Still 2 tests running : test suite for ListSet:4:UniqueElements, test suite for ListSet:3:UniqueElements.
+2022-05-22T20:51:51+00:00 archlinux#00 I: 2 tests running: test suite for ListSet:4:UniqueElements, test suite for ListSet:3:UniqueElements.
+2022-05-22T20:51:51+00:00 archlinux#05 I: End test test suite for ListSet:4:UniqueElements.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Still 2 tests running : test suite for ListSet:4:UniqueElements, test suite for ListSet:3:UniqueElements.
+2022-05-22T20:51:51+00:00 archlinux#00 I: 2 tests running: test suite for ListSet:4:UniqueElements, test suite for ListSet:3:UniqueElements.
+2022-05-22T20:51:51+00:00 archlinux#04 I: Test test suite for ListSet:3:UniqueElements is successful.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Still 1 tests running : test suite for ListSet:3:UniqueElements.
+2022-05-22T20:51:51+00:00 archlinux#00 I: 1 tests running: test suite for ListSet:3:UniqueElements.
+2022-05-22T20:51:51+00:00 archlinux#04 I: End test test suite for ListSet:3:UniqueElements.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Still 1 tests running : test suite for ListSet:3:UniqueElements.
+2022-05-22T20:51:51+00:00 archlinux#00 I: 1 tests running: test suite for ListSet:3:UniqueElements.
+2022-05-22T20:51:51+00:00 archlinux#00 I: 0 tests running: .
+2022-05-22T20:51:51+00:00 archlinux#00 I: Worker archlinux#01 has ended.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Worker archlinux#02 has ended.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Worker archlinux#03 has ended.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Worker archlinux#05 has ended.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Worker archlinux#04 has ended.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Used 5 worker during test execution.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Run 1 tests with shard archlinux#05.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Run 1 tests with shard archlinux#01.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Run 1 tests with shard archlinux#02.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Run 1 tests with shard archlinux#03.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Run 1 tests with shard archlinux#04.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Check health of shard archlinux#05, 3 times.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Check health of shard archlinux#01, 10 times.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Check health of shard archlinux#02, 7 times.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Check health of shard archlinux#03, 6 times.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Check health of shard archlinux#04, 1 times.
+2022-05-22T20:51:51+00:00 archlinux#00 I: ==============
+2022-05-22T20:51:51+00:00 archlinux#00 I: Summary:
+2022-05-22T20:51:51+00:00 archlinux#00 I: Test test suite for ListSet:3:UniqueElements is successful.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Test test suite for ListSet:4:UniqueElements is successful.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Test test suite for ListSet:2:UniqueMem is successful.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Test test suite for ListSet:1:elements is successful.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Test test suite for ListSet:0:mem is successful.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Ran: 5 tests in: 0.10 seconds.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Cases: 5.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Tried: 5.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Errors: 0.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Failures: 0.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Skip: 0.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Todo: 0.
+2022-05-22T20:51:51+00:00 archlinux#00 I: Timeout: 0.

@@ -1,0 +1,43 @@
+Base: n = 1
+Show: fib n = fibi n (0, 1)
+
+    fib 1
+  = { evaluation }
+    1
+
+    fibi 1 (0, 1)
+  = { evaluation }
+    1
+
+Base: n = 2
+Show: fib n = fibi n (0, 1)
+
+    fib 2
+  = { evalution }
+    1
+
+    fibi 2 (0, 1)
+  = { evalution }
+    fibi 1 (1, 1)
+  = { evalution }
+     1
+
+Inductive case: for k >= 2, n = k + 1 
+Show: fib n = fibi n (0, 1)
+IH: fib k = fibi k (0, 1), fib (k-1) = fibi (k-1) (0, 1)
+
+    fib n
+ = {evaluation}
+    fib (k-1) + fib (k)
+ = {IH}
+    fibi (k-1) (0, 1) + fibi k (0, 1)
+  
+    fibi (k-1) (0, 1) + fibi (k-1) (1, 1)
+
+    fibi n (0, 1)
+  = {evaluation}
+    fibi (k) (1, 1)
+  = {evaluation}
+    fibi (k - 1) (1, 2)
+   
+

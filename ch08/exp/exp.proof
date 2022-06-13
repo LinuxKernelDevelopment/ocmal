@@ -1,0 +1,17 @@
+Claim: exp x (m + n) = exp x m * exp x n
+
+Proof: by induction on m, n.
+       exp x (m + n) = exp x m * exp x n
+
+Base case: n = 0
+Show: exp(0) = 1
+
+IH: exp x (m) = exp x m * exp x 0 = exp x m
+
+ exp x (m + 1)
+= { evaluation }
+ x * exp x (m)
+= { evaluation }
+ exp x 1 * exp x m
+
+ QED

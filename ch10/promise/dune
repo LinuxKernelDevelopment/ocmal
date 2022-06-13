@@ -1,0 +1,3 @@
+(executable
+ (name read4)
+ (libraries lwt.unix lwt_ppx))
